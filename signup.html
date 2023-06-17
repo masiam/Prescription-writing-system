@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="signup.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+<link rel="icon" href="/Make_My_Career-logo.png"> 
+
+<style>
+  body{
+    
+  font-family: 'Quicksand', sans-serif;}
+</style>
+</head>
+<body>
+    <h2 style="color:blue;font-size:40px">Sign up</h2>
+    <div class="container2">
+        
+<div class="background">
+    
+        </div>
+<form action="signup.php" method="post" target="_blank">
+  <div class="imgcontainer">
+    <img src="logo-no-background.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Name" name="name" required>
+
+    <label for="email"><b>E-Mail</b></label>
+    <input type="email" placeholder="example@gmail.com" name="username" required>
+
+    <label for="pno"><b>Password</b></label>
+    <input type="password" placeholder="password" name="password" required >
+      <label for="pno"><b>Re-enter Password</b></label>
+    <input type="password" placeholder="password" name="confirm_password" required >
+    
+    
+
+    <button type="submit" style="font-size: 20px">Signup</button>
+    <span class="newuser">Already an user? <a href="login.php"> <b class="lgn">Login</b> </a> </span>
+   
+  </div>
+ 
+</form>
+    </div>
+
+</body>
+</html>

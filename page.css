@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+background-image: linear-gradient(110deg, #abf5f4 10%, #FFFFFF 100%);
+}
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color:skyblue;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+    font-size:
+}
+img.avatar {
+  width: 25%;
+   display: inline-block;
+    float:right;
+    margin: 0 0 0 15px;
+ border-radius: 50%;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+    font-size:
+}
+
+.sidebar a.active {
+  background-color:burlywood;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: black;
+}
+
+div.content {
+  margin-left:500px;
+  padding:20px 10px;
+  height: 1200px;
+margin-right: 500px;
+    font-size:25px
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.content 
+{
+    margin-top:50px;
+/*    text-align: center;*/
+    display: inline-block;
+}
+
+
+
+
+
+.container {  
+     padding:50px; 
+background-image: url("alt-5ae892611bf1a-5168-1472832016f2509f3889266323039a33@1x.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:650px;
+    border-radius: 30px;
+    margin-top: 40px;
+    align-content: center;
+
+    
+} 
+
+  
+input[type=text], input[type=password], input[type=email],textarea {  
+  width: 100%;  
+  padding:0px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: lightblue; 
+    font-size:20px;
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 20px 0; 
+         }  
+hr {  
+  border: 0.8px solid black;  
+  margin-bottom: 25px;  
+}  
+
+.forms option
+{
+    background-color: lightblue;
+    font-size:20px;
+    
+}
+
+
+.registerbtn {  
+  background-color: deepskyblue;  
+  color: white;  
+  padding: 16px 30px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9; 
+}  
+.registerbtn:hover {  
+  opacity: 1; 
+    
+}
